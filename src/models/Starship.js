@@ -4,6 +4,7 @@ class Starship {
         this._manufacturer = data.manufacturer;
         this._crew = data.crew;
         this._passengers = data.passengers;
+        this._length = data.length || 0;
     }
 
     get name() {
@@ -20,6 +21,10 @@ class Starship {
 
     get passengers() {
         return this._passengers;
+    }
+
+    get length() {
+        return this._length;
     }
 }
 

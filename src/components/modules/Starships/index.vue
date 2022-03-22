@@ -15,7 +15,7 @@ export default {
         };
     },
     methods: {
-        rearrangeItems: (a, b) => a.name.length - b.name.length,
+        rearrangeItems: (a, b) => a.length - b.length,
     },
 };
 </script>
