@@ -33,7 +33,7 @@
             >
                 <list-card-item
                     :title="item.name"
-                    :subtitle="item.releaseDate"
+                    :subtitle="item.length"
                     @click.native="showDisplayData(item)"
                 />
             </v-col>

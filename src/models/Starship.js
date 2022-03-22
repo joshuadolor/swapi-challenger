@@ -24,7 +24,7 @@ class Starship {
     }
 
     get length() {
-        return this._length;
+        return parseInt(this._length.replace(/,/g, ''));
     }
 }
 
